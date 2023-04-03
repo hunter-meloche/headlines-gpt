@@ -2,6 +2,8 @@
 
 This Python script scrapes headlines from CNN and FOX News websites, and then uses OpenAI's ChatGPT to analyze the potential bias in the headlines.
 
+### The easiest way to run this is as a [notebook](https://colab.research.google.com/drive/1m-PK15HJ2jy2QFNDh_Jr9brjt961QAwB?usp=sharing).
+
 ## Requirements
 
 - `Python` https://www.python.org/downloads/
@@ -9,8 +11,6 @@ This Python script scrapes headlines from CNN and FOX News websites, and then us
 - `Chrome driver for Selenium` https://sites.google.com/chromium.org/driver/
 
 ## Usage
-
-The easiest way to run this is as a [notebook](https://colab.research.google.com/drive/1m-PK15HJ2jy2QFNDh_Jr9brjt961QAwB?usp=sharing).
 
 1. Make sure you have all the required libraries installed. You can install them using:
 ```
