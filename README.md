@@ -6,6 +6,8 @@ This Python script scrapes headlines from CNN and FOX News websites with Seleniu
 
 ![image](https://user-images.githubusercontent.com/123516285/229646846-eb1752de-d27b-43bc-b28b-1a6ecea533f0.png)
 
+The placeholder prompt compares headlines related to Trump, but you can change it to whatever you wish.
+
 ## Requirements
 
 - `Python` https://www.python.org/downloads/
@@ -13,8 +15,6 @@ This Python script scrapes headlines from CNN and FOX News websites with Seleniu
 - `Chrome driver for Selenium` https://sites.google.com/chromium.org/driver/
 
 ## Usage
-
-The placeholder prompt compares headlines related to Trump, but you can change it to whatever you wish.
 
 1. Make sure you have all the required libraries installed. You can install them using:
 ```
