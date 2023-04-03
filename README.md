@@ -2,7 +2,7 @@
 
 This Python script scrapes headlines from CNN and FOX News websites with Selenium, and then uses OpenAI's ChatGPT to do cross-analysis.
 
-### Easiest way to run this: [Google Colab](https://colab.research.google.com/drive/1u-h22lQEuzBB8xinkk80ut2RbKc49ayi?usp=sharing).
+### Easiest way to run this: [Google Colab](https://colab.research.google.com/drive/1u-h22lQEuzBB8xinkk80ut2RbKc49ayi?usp=sharing)
 
 ![image](https://user-images.githubusercontent.com/123516285/229646846-eb1752de-d27b-43bc-b28b-1a6ecea533f0.png)
 
