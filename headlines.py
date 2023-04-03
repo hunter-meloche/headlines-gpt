@@ -46,7 +46,7 @@ driver.quit()
 # Create embedding and setup QA for ChatGPT
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 texts = text_splitter.split_text(headlines)
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 embeddings = OpenAIEmbeddings(openai_api_key=os.environ['OPENAI_API_KEY'])
 vectorstore = FAISS.from_texts(texts, embeddings)
 qa = RetrievalQA.from_chain_type(llm=ChatOpenAI(model='gpt-3.5-turbo'), chain_type="stuff", retriever=vectorstore.as_retriever())
