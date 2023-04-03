@@ -2,7 +2,7 @@
 
 This Python script scrapes headlines from CNN and FOX News websites, and then uses OpenAI's ChatGPT to analyze the potential bias in the headlines.
 
-### The easiest way to run this is as a [notebook](https://colab.research.google.com/drive/1m-PK15HJ2jy2QFNDh_Jr9brjt961QAwB?usp=sharing).
+### The easiest way to run this is with this [Google Colab notebook](https://colab.research.google.com/drive/1u-h22lQEuzBB8xinkk80ut2RbKc49ayi?usp=sharing).
 
 ## Requirements
 
