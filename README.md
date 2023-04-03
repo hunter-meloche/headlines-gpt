@@ -1,4 +1,4 @@
-# News Headline Bias Analyzer
+# headlines-gpt
 
 This Python script scrapes headlines from CNN and FOX News websites with Selenium, and then uses OpenAI's ChatGPT to do cross-analysis.
 
