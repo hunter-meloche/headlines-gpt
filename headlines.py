@@ -23,7 +23,8 @@ content = driver.page_source
 
 # Parse CNN homepage with BeautifulSoup for headlines
 soup = BeautifulSoup(content, 'html.parser')
-elements = soup.find_all(class_='cd__headline-text vid-left-enabled')
+prefix = "container__headline"
+elements = soup.select(f'[class^="{prefix}"]')
 elements_strings = [element.get_text(strip=True) for element in elements]
 cnn_headlines = 'NewsSource1 Headlines:\n\n' + '\n\n'.join(elements_strings) + '\n\n\n\n'
 
